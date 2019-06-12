@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:accessibilityPaneTitle="Opening"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="30dp"
+    tools:context=".open">
+
+
+    <Button
+        android:id="@+id/open1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#087A9E"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="USD IDR CONVERTER"/>
+    <Button
+        android:id="@+id/open2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:background="#087A9E"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="THB IDR CONVERTER"/>
+
+</LinearLayout>

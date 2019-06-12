@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="20dp"
+    android:accessibilityPaneTitle="THB to IDR"
+    tools:context=".home">
+
+    <EditText
+        android:id="@+id/edithb"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:hint="THB"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editidr"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tombol1"
+        android:hint="IDR"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/tombol1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/edithb"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="thb to idr"
+        android:onClick="klik1"
+        android:background="#087A9E"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        tools:ignore="HardcodedText"
+        />
+
+    <Button
+        android:id="@+id/tombol2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/editidr"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="thb to idr"
+        android:onClick="klik2"
+        android:background="#087A9E"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        tools:ignore="HardcodedText"
+        />
+
+    <Button
+        android:id="@+id/tombolreset"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/tombol2"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="reset"
+        android:onClick="klikreset"
+        android:background="#087A9E"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        tools:ignore="HardcodedText"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
+        android:textStyle="bold"
+        android:textColor="#087A9E"
+        android:text="1 THB = 455 IDR"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
