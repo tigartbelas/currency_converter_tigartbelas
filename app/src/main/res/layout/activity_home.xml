@@ -57,7 +57,7 @@
         android:layout_below="@id/editidr"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:text="thb to idr"
+        android:text="idr to thb"
         android:onClick="klik2"
         android:background="#087A9E"
         android:textSize="20sp"
